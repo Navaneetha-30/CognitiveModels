@@ -1,79 +1,107 @@
 # 🧠 CogniPath AI: Adaptive Cognitive Learning Platform
 
-![CogniPath Header](https://raw.githubusercontent.com/shreys-repo/learning/main/public/header-preview.png)
+<p align="center">
+  <img src="https://socialify.git.ci/Navaneetha-30/CognitiveModels/image?description=1&descriptionEditable=Adaptive%20Psychometric%20Learning%20Core%20v5.0&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Flucide-react%2Flucide%2Fmain%2Ficons%2Fbrain.svg&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light" alt="CogniPath Banner" width="800" />
+</p>
 
-CogniPath AI is an advanced, student-centric adaptive learning ecosystem that utilizes **Real-Time Psychometric Modeling** (IRT/BKT) and **Generative AI** to scale educational content dynamically to a student's unique cognitive ability ($\theta$).
+CogniPath AI is a high-fidelity, **Student-Centric Adaptive Learning Ecosystem**. It leverages real-time **Item Response Theory (IRT)** and **Bayesian Knowledge Tracing (BKT)** to map a student's unique cognitive ability ($\theta$) and dynamically scale educational content in real-time.
 
 ---
 
-## 🚀 Key Features
+## ⚡ Core Technical Pillars
 
-### 🤖 Ask CogniPath (Neural AI Assistant)
-A sophisticated chat interface integrated with **Gemini 1.5 Flash**. Unlike standard chatbots, CogniPath AI is injected with your real-time performance telemetry, allowing it to provide hyper-personalized guidance based on your actual mastery levels.
+| Pillar | Technology | Implementation |
+| :--- | :--- | :--- |
+| **Adaptive Logic** | Psychometric Engines | 2PL IRT Model + Bayesian Knowledge Tracing |
+| **AI Interaction** | Gemini 1.5 Flash | Context-Injected Large Language Model Inference |
+| **Visual Intel** | React + Tailwind v4 | Real-time Neural Telemetry & Dashboarding |
+| **Policy Engine** | Q-Learning | Reinforcement Learning for Difficulty Scaling |
+
+---
+
+## 🚀 Module Breakdown
+
+### 🤖 Ask CogniPath (Neural Assistant)
+A state-of-the-art chat interface integrated with **Gemini 1.5 Flash**. 
+- **Context Injection:** Automatically pulls the student's $\theta$ (Ability) and Mastery indices.
+- **Personalized Response:** Generates guidance tailored to the student's *actual* current cognitive state.
 
 ### 🧪 What-If Simulator
-A predictive dashboard that allows students to simulate cognitive scenarios. Test how your retention and mastery indices would react under different learning intensities and timeframes.
+A predictive analysis dashboard for cognitive modeling.
+- **Scenario Testing:** Simulate the impact of various study intensities on memory retention.
+- **Future Scaling:** Built-in vision for 2030 global cognitive scaling metrics.
 
-### 📊 Advanced Neural Analytics
-Beautiful, data-driven visualizations of your learning journey. Track your **Global Ability (θ)** drift and concept-specific mastery through high-fidelity charts.
+### 📊 Neural Analytics Dashboard
+High-fidelity data visualizations of student growth.
+- **$\theta$-Drift Tracking:** Monitor the fluctuation of global ability over time.
+- **Concept Radar:** Heatmaps and performance indicators for Logic, Memory, and Spatial mastery.
 
 ### 🎮 RL Playground
-Experience Reinforcement Learning (Q-Learning) in action. See how the adaptive engine makes decisions to optimize your learning path based on positive and negative feedback loops.
+A "live" laboratory for Reinforcement Learning.
+- **Q-Learning Policy:** Visualize how the AI weights different learning actions.
+- **Feedback Loops:** Real-time state-action-reward visualization.
 
 ---
 
-## 🧩 Technical Foundation
+## � System Architecture & Math
 
-The platform is built on a "Decoupled Neural Architecture" that separates UI from mathematical inference.
+The platform is built on a **Decoupled Neural Architecture**, ensuring that heavy mathematical calculations (IRT/BKT) happen seamlessly behind a premium, glassmorphism UI.
 
-- **IRT Engine (2-Parameter Logistic Model):** Dynamically estimates student ability ($\theta$) after every interaction.
-- **Bayesian Knowledge Tracing (BKT):** Probabilistic mastery tracking across multiple concepts (Logic, Memory, Spatial, etc.).
-- **Reinforcement Learning (Q-Learning):** Autonomous policy engine that adjusts curriculum difficulty.
-
-For a deep dive into the math and architecture, see [SYSTEM_ARCHITECTURE.md](./SYSTEM_ARCHITECTURE.md).
+> [!IMPORTANT]
+> For a full technical deep-dive, mathematical proofs, and system flow diagrams, please refer to the **[SYSTEM_ARCHITECTURE.md](./SYSTEM_ARCHITECTURE.md)**.
 
 ---
 
-## 🛠️ Setup & Installation
+## 🛠️ Installation & Setup
 
-### Prerequisites
-- Node.js (v18+)
-- A Google Gemini API Key
+### 📋 Prerequisites
+- **Node.js:** v18.0.0 or higher
+- **Package Manager:** npm
+- **API Access:** Google Gemini API Key
 
-### Installation
+### 🚀 Getting Started
 
-1. **Clone the repository:**
+1. **Clone the Neural Core:**
    ```bash
-   git clone https://github.com/shreys-repo/learning.git
-   cd learning
+   git clone https://github.com/Navaneetha-30/CognitiveModels.git
+   cd CognitiveModels
    ```
 
-2. **Install dependencies:**
+2. **Initialize Environment:**
+   Install all neural dependencies and setup your environment variables.
    ```bash
    npm install
    ```
 
-3. **Configure Environment:**
-   Create a `.env` file in the root directory and add your API key:
+3. **Configure API Key:**
+   Create a `.env` file in the root directory:
    ```env
    VITE_GEMINI_API_KEY=your_gemini_api_key_here
    ```
 
-4. **Launch Dev Server:**
+4. **Launch Interface:**
    ```bash
    npm run dev
    ```
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend:** React + Vite + Tailwind CSS v4
-- **State Management:** React Context API (Custom Hooks)
-- **AI Engine:** Google Generative AI (@google/generative-ai)
+## 🛠️ Technology Stack
+
+- **Framework:** React 18 + Vite
+- **Styling:** Tailwind CSS v4 (Glassmorphism architecture)
+- **AI Integration:** Google Generative AI Hub (@google/generative-ai)
+- **State Management:** React Context API + Custom Neural Hooks
 - **Icons:** Lucide React
-- **Animations:** Tailwind Extended + Framer Motion (Simulation Hooks)
+- **Psychometrics:** Custom Vanilla JS Engines (IRT/BKT/Q-Learning)
 
 ---
 
 ## 📄 License
-MIT License - Copyright (c) 2026 CogniPath AI
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+<p align="center">
+  Built with ❤️ for the future of Adaptive Learning.
+</p>
